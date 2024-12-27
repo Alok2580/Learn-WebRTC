@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Camera and Voice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Camera and Voice</h1>
+        <div class="video-container">
+            <video id="video" autoplay playsinline></video>
+        </div>
+        <button id="startBtn">Start Camera</button>
+        <button id="recordBtn" disabled>Start Recording</button>
+        <button id="stopBtn" disabled>Stop Recording</button>
+        <a id="downloadLink" style="display: none;">Download Recording</a>
+        <p id="status">Click "Start Camera" to begin.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
